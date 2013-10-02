@@ -1,0 +1,184 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+#wrapper {
+	margin-bottom: -32px;
+	min-height: 100%;
+	min-width: 980px;
+}
+
+nav {
+	background-color: #2D2D2D;
+	height: 30px;
+	position: relative;
+	min-width: 980px;
+
+}
+
+nav li {
+	display: inline;
+	color: #bbbbbb;
+	padding-left: 16px;
+	font-family: sans-serif;
+	font-size: 13px;
+	font-weight: bold; 
+	position: relative;
+	top: 6px;
+}
+
+nav li:hover {
+	color: #f8f8f8;
+	cursor: pointer;
+}
+
+nav li:nth-child(2) {
+	color: #f8f8f8;
+}
+
+/* section is main logo and search bar */
+section {
+	position: relative;
+	width: 570px;
+	margin: 100px auto 0 auto;
+	min-height: 300px;
+	min-width: 570px;
+}
+
+
+section form input {
+	width: 570px;
+	height: 25px;
+}
+
+section form input:focus {
+	outline-color: #4D90FE
+
+}
+
+section img {
+	width: 280px;
+	height: 95px;
+	margin-left: 150px;
+	padding-bottom: 20px;
+}
+
+section button {
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #444444;
+	height: 20px;
+	font-size: 11px;
+	margin-left: 10px;
+	border-radius: 3px;
+	border: 1px solid #d9d9d9;
+	padding: 12px 9px;
+	text-align: center;
+	line-height: 0px;
+}
+
+section button:hover {
+	color: #2D2D2D;
+	background-color: #f5f5f5;
+	border: 1px solid #cccccc;
+}
+
+section div {
+	display: inline-block;
+	padding-top: 15px;
+	margin-left: 160px;
+}
+
+/* right hand corner sign in button */
+button#SignIn {
+	font-family: sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 11px;
+	color: #ffffff;
+	position: relative;
+	top: 20px;
+	right: 25px;
+	float: right;
+	background-color: #D14836;
+	border-radius: 3px;
+	padding: 7px 15px;
+	border: 1px solid #c83a2a;
+}
+
+button#SignIn:hover {
+	cursor: pointer;
+	background: linear-gradient(to bottom, #d14836 0%,#af301f 100%);
+	border: 1px solid #af301f;
+}
+
+footer {
+	border-top: 1px solid #EBEBEB;
+	text-align: right;
+	height: 32px;
+	min-width: 980px;	
+}
+
+footer li {
+	font-family: sans-serif;
+	font-size: 13px;
+	display: inline-block;
+	color: #666666;
+	padding-right: 20px;
+	padding-top: 10px;
+	
+}
+
+footer li:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
